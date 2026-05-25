@@ -441,7 +441,7 @@ export default function App() {
             </div>
             <h3 className="font-semibold text-white text-lg mb-2">Brand Story</h3>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              TCJ was born from a vision of bringing high-vibrational healing to the modern woman. We believe in the power of celestial alignment and soulful intention.
+              The Celestial Joint was born from a vision of bringing high-vibrational healing to the modern woman. We believe in the power of celestial alignment and soulful intention.
             </p>
           </motion.div>
 
@@ -779,7 +779,7 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-20 items-center">
             <div>
               <motion.span {...fadeUp(0.1)} className="text-xs tracking-[4px] uppercase text-muted-foreground font-semibold mb-4 block">TRUSTED BY SOULS</motion.span>
-              <motion.h2 {...fadeUp(0.2)} className="text-4xl md:text-6xl font-medium tracking-[-1px] text-white mb-8">Why the <span className="font-serif italic font-normal text-white">modern mystic</span> chooses TCJ</motion.h2>
+              <motion.h2 {...fadeUp(0.2)} className="text-4xl md:text-6xl font-medium tracking-[-1px] text-white mb-8">Why the <span className="font-serif italic font-normal text-white">modern mystic</span> chooses The Celestial Joint</motion.h2>
               <div className="grid grid-cols-1 gap-6">
                 {[
                   { title: "Premium Accuracy", text: "Our readings are celebrated for their profound precision and insight." },
@@ -869,7 +869,7 @@ export default function App() {
             {[
               { q: "How does a Tarot Reading work?", a: "Our readings use the cards as a mirror to your subconscious and the cosmic energies surrounding you." },
               { q: "How do I schedule my booking?", a: "Select your service, choose a time, and you'll receive a confirmation for your digital session via email." },
-              { q: "Are your crystals authentic?", a: "Yes, all TCJ crystals are 100% natural, authentic, and energetically cleansed before they are shipped." },
+              { q: "Are your crystals authentic?", a: "Yes, all our sacred crystals are 100% natural, authentic, and energetically cleansed before they are shipped." },
               { q: "What is your refund policy?", a: "Due to the nature of spiritual services, readings are non-refundable, but we ensure total satisfaction with every session." },
               { q: "Are sessions via Zoom or WhatsApp?", a: "We offer both! You can choose the platform that feels most comfortable for you during the checkout process." }
             ].map((item, i) => (
