@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#000" rx="24" stroke="#333" stroke-width="1.5" />
+  <g transform="translate(100,100) scale(1.1)">
+    <!-- Elegant monochrome circular spiral resembling OpenAI/ChatGPT -->
+    <circle cx="0" cy="0" r="4" fill="#fff" />
+    <path d="M 0,0 C 20,-10 35,5 20,25 C 10,35 -10,30 -15,10 C -20,-10 -5,-25 15,-20" fill="none" stroke="#fff" stroke-width="2" opacity="0.8" />
+    <path d="M 0,0 C -20,10 -35,-5 -20,-25 C -10,-35 10,-30 15,-10 C 20,10 5,25 -15,20" fill="none" stroke="#fff" stroke-width="2" opacity="0.8" />
+    <path d="M 0,0 C 10,20 -5,35 -25,20 C -35,10 -30,-10 -10,-15 C 10,-20 25,-5 20,15" fill="none" stroke="#fff" stroke-width="2" opacity="0.6" />
+    <path d="M 0,0 C -10,-20 5,-35 25,-20 C 35,-10 30,10 10,15 C -10,20 -25,5 -20,-15" fill="none" stroke="#fff" stroke-width="2" opacity="0.6" />
+  </g>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 6" opacity="0.25" />
+</svg>
