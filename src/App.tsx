@@ -18,6 +18,7 @@ import {
   HelpCircle
 } from "lucide-react";
 import Hls from "hls.js";
+import heroVideo from "./assets/heropage.mp4";
 import tcjLogo from "./assets/tcj logo.png";
 
 // Custom standard social icons as clean SVGs to prevent version export discrepancies
@@ -319,8 +320,8 @@ export default function App() {
       <section id="home" className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-black py-20">
         {/* Autoplay looping muted MP4 video background */}
         <div className="absolute inset-0 z-0">
-          <video 
-            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260325_120549_0cd82c36-56b3-4dd9-b190-069cfc3a623f.mp4"
+          <video
+            src={heroVideo}
             className="w-full h-full object-cover opacity-45"
             muted
             loop
